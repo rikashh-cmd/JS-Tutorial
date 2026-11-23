@@ -1,9 +1,3 @@
-const temperature = 28;
-
-if (temperature > 30) {
-  console.log("Hot");
-} else if (temperature >= 20) {
-  console.log("Warm");
-} else {
-  console.log("Cool");
+for (let i = 1; i <= 3; i++) {
+  console.log(i);
 }
