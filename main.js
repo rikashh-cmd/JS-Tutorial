@@ -1,7 +1,9 @@
-const message = "Hello";       // string
-const age = 25;                // number
-const isLearning = true;       // boolean
-const nothing = null;          // intentional absence
-let notSet;                    // undefined
-const colors = ["red", "blue"]; // array
-const person = { name: "Maya", age: 25 }; // object
+const temperature = 28;
+
+if (temperature > 30) {
+  console.log("Hot");
+} else if (temperature >= 20) {
+  console.log("Warm");
+} else {
+  console.log("Cool");
+}
