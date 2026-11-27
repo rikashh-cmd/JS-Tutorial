@@ -1,9 +1,7 @@
-// Store a value
-const name = "Rikas";
+const scores = [8, 10, 6];
 
-// Make a function
-function greet(person) {
-  return `Hello, ${person}!`;
+for (const score of scores) {
+  if (score >= 8) {
+    console.log(`Great score: ${score}`);
+  }
 }
-
-console.log(greet(name));
