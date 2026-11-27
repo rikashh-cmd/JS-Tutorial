@@ -1,7 +1,7 @@
-const scores = [8, 10, 6];
+const name = "Sam"; // text
+let score = 10;     // number
 
-for (const score of scores) {
-  if (score >= 8) {
-    console.log(`Great score: ${score}`);
-  }
-}
+score = 12;         // let can be reassigned
+
+console.log(name);
+console.log(score);
