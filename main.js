@@ -1,6 +1,9 @@
-const name = "Sam"; // text
-let score = 10;     // number
+const colors = ["red", "blue", "green"];
 
-score = 12;         // let can be reassigned
+const person = {
+  name: "Maya",
+  age: 25
+};
 
-console.log(name);
+console.log(colors[0]);  // "red"
+console.log(person.name); // "Maya"
